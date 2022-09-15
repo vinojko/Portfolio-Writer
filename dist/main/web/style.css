@@ -1,0 +1,125 @@
+*{
+
+    font-family: "Poppins", sans-serif;
+  }
+
+  .drag-image{
+    border: 2px dashed rgb(0, 0, 0);
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    font-weight:400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(40, 96, 144, 0.068);
+  }
+  .drag-image.active{
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .drag-image .icon{
+    font-size: 30px;
+    color: rgb(30, 62, 90);
+  }
+  .drag-image h6{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+  }
+  .drag-image span{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin: 10px 0 15px 0;
+  }
+  .drag-image button{
+    padding: 10px 25px;
+    font-size: 14px; 
+    font-weight: 300;
+    border: none;
+    outline: none;
+    background:rgb(40, 96, 144);
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition:all 0.5s;
+  }
+  
+  .drag-image button:hover{
+      background-color:#000000;
+      color:rgb(255, 255, 255);
+  }
+  
+  .drag-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+
+
+
+
+
+  .drag-image2{
+    border: 2px dashed rgb(0, 0, 0);
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    font-weight:400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(40, 96, 144, 0.068);
+  }
+  .drag-image2.active{
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .drag-image2 .icon{
+    font-size: 30px;
+    color: rgb(30, 62, 90);
+  }
+  .drag-image2 h6{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+  }
+  .drag-image2 span{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin: 10px 0 15px 0;
+  }
+  .drag-image2 button{
+    padding: 10px 25px;
+    font-size: 14px; 
+    font-weight: 300;
+    border: none;
+    outline: none;
+    background:rgb(40, 96, 144);
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition:all 0.5s;
+  }
+  
+  .drag-image2 button:hover{
+      background-color:#000000;
+      color:rgb(255, 255, 255);
+  }
+  
+  .drag-image2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .btn {
+    margin-bottom: 40px;
+  }
